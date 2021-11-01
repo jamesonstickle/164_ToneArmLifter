@@ -1,4 +1,5 @@
 
+Notes on Setting up github access on PI:
 
 To setup github command line authentication for PI:
 
@@ -21,5 +22,26 @@ pi@raspberrypi:~/code $ gh auth login
 - Press Enter to open github.com in your browser... 
 Opening in existing browser session.
 ✓ Authentication complete. Press Enter to continue...
+
+
+Then...
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+Finally, you can clone your repo from github to a local folder (recommend /home/pi/code).
+
+cd into your repo folder
+
+copy your current files into this folder
+
+do the normal git add/commit process:
+
+  git add .
+  git commit -m "Initial set of files from the PI"
+  git push
+
+
 
 
