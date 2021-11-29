@@ -1,0 +1,124 @@
+    1  cd Downloads/
+    2  ls /l
+    3  ls -l
+    4  chmod +x audacity-linux-3.0.5-x86_64.AppImage 
+    5  ./audacity-linux-3.0.5-x86_64.AppImage 
+    6  lsusb
+    7  pip install pyaudio
+    8  pip install numpy
+    9  sudo apt-get install gcc
+   10  sudo apt-get install gcc libffi-dev libssl-dev python3-dev
+   11  pip install pyaudio
+   12  sudo apt-get install libzbar-dev libzbar0
+   13  sudo apt install python-dev
+   14  pip install pyaudio
+   15  raspi_config
+   16  sudo apt --reinstall install libc6 libc6-dev
+   17  sudo pip install rpi_ws281x
+   18  sudo apt-get install libzbar-dev libzbar0
+   19  sudo apt install -y libffi-dev
+   20  sudo apt install clang -y
+   21  sudo apt-get install python3-dev
+   22  sudo apt-get install build-essential
+   23  pip install pyaudio
+   24  hdmi_drive=2
+   25  /boot/config.txt
+   26  hdmi_drive=2
+   27  tar -C $HOME -xzf NoiseTorch_x64.tgz
+   28  gtk-update-icon-cache
+   29  sudo apt-get install python3-rpi.gpio
+   30  sudo pip3 install gpiozero
+   31  sudo apt-get install -y python-pip
+   32  sudo pip install wiringpi
+   33  sudo apt-get install -y wiringpi
+   34  sudo python switch.py
+   35  ls -l
+   36  ls -l
+   37  cd Documents/
+   38  ls
+   39  cd ToneArmLifter/
+   40  LS
+   41  ls
+   42  cd 'push switch'/
+   43  ls
+   44  sudo python switch.py
+   45  vi switch.py 
+   46  import RPi.GPIO as GPIO
+   47  import time
+   48  GPIO.setmode(GPIO.BCM)
+   49  GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+   50  while True:;     input_state = GPIO.input(18)
+   51  sudo python switch.py
+   52  ifconfig
+   53  git pull
+   54  ls
+   55  cd code
+   56  ls
+   57  ls -al
+   58  cd 164_ToneArmLifter/
+   59  ls
+   60  ls -al
+   61  vi test.txt
+   62  git add test.txt 
+   63  git commit -m  "added new file"
+   64  git push
+   65  cd Documents
+   66  cd ToneArmLifter/
+   67  ls
+   68  ls -la
+   69  cd push\ switch/
+   70  ls
+   71  ls -l
+   72  cp working_Switch.py ~/code/164_ToneArmLifter/
+   73  cd ~/code/164_ToneArmLifter/
+   74  ls
+   75  ls -=al
+   76  ls -al
+   77  git status
+   78  git add working_Switch.py 
+   79  git commit -m "Working switch file"
+   80  git push
+   81  git pull
+   82  git push
+   83  git status
+   84  cp working_Switch.py switchAndServo.py
+   85  ls
+   86  cd Servos/
+   87  mv workingServoWebTest_v2.py ..
+   88  cd ..
+   89  git pull
+   90  git push
+   91  touch cmdgit.txt
+   92  pip install PyAudio
+   93  conda install -c anaconda pyaudio
+   94  source activate -your environment name-
+   95  src/_portaudiomodule.c:29:23: fatal error: portaudio.h: No such file or directory
+   96  $ sudo add-apt-repository universe
+   97  sudo add-apt-repository universe
+   98  sudo apt-get install python-pyaudio python3-pyaudio
+   99  sudo apt-get build-dep python-pyaudio python3-pyaudio
+  100  python3 -mpip install pyaudio
+  101  ls
+  102  cd ~/code
+  103  ls
+  104  cd 164_ToneArmLifter/
+  105  ls
+  106  cd Microphone/
+  107  cp mic\ 3.py working_mic.py
+  108  ls
+  109  git status
+  110  git add working_mic.py 
+  111  git commit -m "mic working somewhat with rms volume"
+  112  git push
+  113  cd code
+  114  cd 164_ToneArmLifter/
+  115  GIT STAT
+  116  git statis
+  117  git status
+  118  rec test.wav
+  119  apt-get install rec
+  120  sudo apt-get install rec
+  121  play
+  122  ls
+  123  history
+  124  history > history.txt
